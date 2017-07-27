@@ -18,23 +18,25 @@ h3 {
 h4 {
   font-size: 11px;
   color: white;
+  background-color: dimgray;
 }
 p {
   font-size: 14px;
 }
-.background-image nav ul li {
-  font-size: 18px;
-  color: white;
-}
+
 .background-image {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
-.background-image  {
+
+nav ul li {
   font-size: 23px;
   font-weight: bold;
   colour: white;
 }
+
 .background-color {
-  color: dimgray;
+  background-color: dimgray;
 }
-background image and background color incorrect - check.
+nav ul li {
+  display: inline;
+}
